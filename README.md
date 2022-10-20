@@ -5,3 +5,9 @@
 Building &amp; testing a simple node image
 
 <a href='https://hub.docker.com/repository/docker/kiwasthal/testing-node'>Here on Docker-Hub<a/>
+
+### Download and run image
+
+-docker container run (--rm) -p 80:3000 kiwasthal/testing-node
+-navigate to localhost
+-Congrats!
