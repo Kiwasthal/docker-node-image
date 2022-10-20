@@ -3,7 +3,7 @@ let router = express.Router();
 
 // - Users Listing - //
 router.get('/', (req, res, next) => {
-  res.send('respond with a resource');
+  res.render('index', { title: 'Node.js Express App' });
 });
 
 module.exports = router;

@@ -3,8 +3,8 @@ let router = express.Router();
 
 // - Home Page //
 
-router.get('/', (req, res, next) => {
-  res.render('index', { title: 'Node.js Express App' });
+router.get('/users', (req, res, next) => {
+  res.send('respond with a resource');
 });
 
 module.exports = router;
