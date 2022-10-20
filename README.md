@@ -8,6 +8,8 @@ Building &amp; testing a simple node image
 
 ### Download and run image
 
--docker container run (--rm) -p 80:3000 kiwasthal/testing-node
--navigate to localhost
--Congrats!
+<ol>
+  <li>-docker container run (--rm) -p 80:3000 kiwasthal/testing-node</li>
+  <li>-navigate to localhost</li>
+  <li>-Congrats!</li>
+</ol>
